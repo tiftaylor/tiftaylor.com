@@ -116,6 +116,7 @@ h2 {
 			-webkit-background-size: 50px 50px;
 			-moz-background-size: 50px 50px;
 			background-size: 50px 50px;
+			animation: move 2s linear infinite;
 			-webkit-animation: move 2s linear infinite;
 			-moz-animation: move 2s linear infinite;
 			   -webkit-border-top-right-radius: 8px;
@@ -133,6 +134,15 @@ h2 {
 			overflow: hidden;
 		}
 
+
+		@keyframes move {
+			0% {
+				background-position: 0 0;
+			}
+			100% {
+				background-position: 50px 50px;
+			}
+		}
 
 		@-webkit-keyframes move {
 		    0% {
