@@ -1,2 +1,4 @@
 # tiftaylor.com
-Developer Portfolio
+My Developer Portfolio
+Name: Tif Taylor
+Email Me: tiftaylorisrad@gmail.com
