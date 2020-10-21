@@ -1,21 +1,22 @@
 /*CSS by Tif*/
 
 body {
-	background: black;
-	color: rgb(224, 245, 243);
+	background: rgb(193, 217, 220);
+	color: rgb(62, 68, 69);
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	margin: 0;
 }
 
 h1 {
 	text-align: center;
 	font-size: 6em;
 	font-weight: 300;
-	margin-bottom: 30px;
+	margin-bottom: 0;
 }
 
 h3 {
 	text-align: center;
-	font-size: 5em;
+	font-size: 2em;
 	margin-top: 0;
 	font-weight: 300;
 }
@@ -30,8 +31,8 @@ p {
 	font-size: 2.5rem;
 }
 
-a {
-	color: rgb(240, 250, 249);
+#links a {
+	color: rgb(62, 68, 69);
 	font-size: 2em;
 	font-weight: 200;
 	padding: 30px;
@@ -40,15 +41,21 @@ a {
 #links{
 	text-align: center;
 	margin-bottom: 30px;
-	margin-top: 70px;
+	margin-top: 80px;
 }
 
 #centerList {
-	float: left;
 	position: relative;
 	left: 25%;
 	font-size: 1.5em;
 	font-weight: lighter;
+}
+
+.label {
+	font-size: 1.3rem;
+	color: rgb(62, 68, 69);
+	padding: 0;
+	font-weight: 200;
 }
 
 #leftList {
@@ -61,6 +68,41 @@ a {
 	display: inline-block;
 	margin-left: 45px;
 	vertical-align: middle;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+footer ul{
+	margin-bottom: 0;
+	filter: invert();
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+
+}
+
+footer ul li {
+	padding: 8px;
+}
+
+.social {
+  width: 40%;
+  
+}
+    @media only screen and (max-width: 576px) {
+      .social {
+        width: 50%;
+        opacity: 0.5;
+      }
+    }
+
+#footer-div {
+  margin: auto;
+	text-align: center;
+	background-color: rgb(139, 176, 180);
 }
 
 /*
